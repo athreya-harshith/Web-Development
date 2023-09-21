@@ -5,6 +5,8 @@ img
 .container
 {
     border: 2px solid gray;
+    height: 1500px;
+    color: beige;
 }
 .pic2
 {
@@ -14,4 +16,8 @@ img
 
     position: absolute;
     top: 100px;
+}
+.pic4
+{
+    position: fixed;
 }
