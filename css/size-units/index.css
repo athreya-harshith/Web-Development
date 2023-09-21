@@ -22,3 +22,11 @@
     height: 100vh;
     width: 50vw;
 }
+.parent1
+{
+    font-size: 10px;
+}
+.child1
+{
+    font-size: 10em;
+}
