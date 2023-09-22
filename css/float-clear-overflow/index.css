@@ -10,3 +10,12 @@ img
 {
     float: right;
 }
+#pic1
+{
+    float: right;
+}
+#pic2
+{
+    float: right;
+    clear: right;
+}
