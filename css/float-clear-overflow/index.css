@@ -19,3 +19,20 @@ img
     float: right;
     clear: right;
 }
+
+.parent
+{
+    border: 2px solid black;
+    background-color: antiquewhite;
+    overflow: auto;
+    /* the above is useful in great -collapse */
+}
+.child
+{
+    border: 2px solid rgb(215, 58, 58);
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+    float: left; 
+    /* the above float left collapses the parent container of child hence use overflow-auto inside the parent container */
+}
