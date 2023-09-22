@@ -36,3 +36,10 @@ img
     float: left; 
     /* the above float left collapses the parent container of child hence use overflow-auto inside the parent container */
 }
+.overflow
+{
+    border: 2px solid black;
+    height: 350px;
+    width: 450px;
+    overflow: auto;
+}
